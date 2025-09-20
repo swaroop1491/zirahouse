@@ -3,18 +3,140 @@
         "title": "Zira House",
         "location": "Downtown",
         "price": "$250,000",
-        "bedrooms": 3
+        "bedrooms": 3,
+        "type": "sell"
     },
     {
         "title": "Green Villa",
         "location": "Suburbs",
         "price": "$320,000",
-        "bedrooms": 4
+        "bedrooms": 4,
+        "type": "sell"
     },
     {
         "title": "Sunset Apartment",
         "location": "City Center",
         "price": "$180,000",
-        "bedrooms": 2
+        "bedrooms": 2,
+        "type": "sell"
+    },
+    {
+        "title": "Lakeview Cottage",
+        "location": "Lakeside",
+        "price": "$400,000",
+        "bedrooms": 5,
+        "type": "sell"
+    },
+    {
+        "title": "Hilltop Mansion",
+        "location": "Hilltop",
+        "price": "$950,000",
+        "bedrooms": 6,
+        "type": "sell"
+    },
+    {
+        "title": "Urban Loft",
+        "location": "Downtown",
+        "price": "$210,000",
+        "bedrooms": 2,
+        "type": "sell"
+    },
+    {
+        "title": "Country Estate",
+        "location": "Countryside",
+        "price": "$600,000",
+        "bedrooms": 4,
+        "type": "sell"
+    },
+    {
+        "title": "Royal Residency",
+        "location": "City Center",
+        "price": "$750,000",
+        "bedrooms": 5,
+        "type": "sell"
+    },
+    {
+        "title": "Palm Grove",
+        "location": "Suburbs",
+        "price": "$350,000",
+        "bedrooms": 3,
+        "type": "sell"
+    },
+    {
+        "title": "Maple Villa",
+        "location": "Maple Street",
+        "price": "$420,000",
+        "bedrooms": 4,
+        "type": "sell"
+    },
+    {
+        "title": "Green Villa (Rent)",
+        "location": "Suburbs",
+        "price": "$1,200/month",
+        "bedrooms": 4,
+        "type": "rent"
+    },
+    {
+        "title": "Sunset Apartment (Rent)",
+        "location": "City Center",
+        "price": "$900/month",
+        "bedrooms": 2,
+        "type": "rent"
+    },
+    {
+        "title": "Lakeview Cottage (Rent)",
+        "location": "Lakeside",
+        "price": "$2,000/month",
+        "bedrooms": 5,
+        "type": "rent"
+    },
+    {
+        "title": "Urban Loft (Rent)",
+        "location": "Downtown",
+        "price": "$1,100/month",
+        "bedrooms": 2,
+        "type": "rent"
+    },
+    {
+        "title": "Country Estate (Rent)",
+        "location": "Countryside",
+        "price": "$2,500/month",
+        "bedrooms": 4,
+        "type": "rent"
+    },
+    {
+        "title": "Royal Residency (Rent)",
+        "location": "City Center",
+        "price": "$3,000/month",
+        "bedrooms": 5,
+        "type": "rent"
+    },
+    {
+        "title": "Palm Grove (Rent)",
+        "location": "Suburbs",
+        "price": "$1,400/month",
+        "bedrooms": 3,
+        "type": "rent"
+    },
+    {
+        "title": "Maple Villa (Rent)",
+        "location": "Maple Street",
+        "price": "$1,800/month",
+        "bedrooms": 4,
+        "type": "rent"
+    },
+    {
+        "title": "City Studio",
+        "location": "Downtown",
+        "price": "$800/month",
+        "bedrooms": 1,
+        "type": "rent"
+    },
+    {
+        "title": "Hilltop Mansion (Rent)",
+        "location": "Hilltop",
+        "price": "$4,500/month",
+        "bedrooms": 6,
+        "type": "rent"
     }
 ]
