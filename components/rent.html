@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rent Property</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        form { max-width: 400px; margin: auto; background: #fafafa; padding: 24px; border-radius: 8px; border: 1px solid #ccc; }
+        label { display: block; margin-top: 16px; }
+        input, textarea { width: 100%; padding: 8px; margin-top: 4px; border-radius: 4px; border: 1px solid #bbb; }
+        button { margin-top: 20px; padding: 10px 20px; border: none; background: #333; color: #fff; border-radius: 4px; cursor: pointer; }
+        button:hover { background: #555; }
+    </style>
+</head>
+<body>
+    <h1>Rent Out Your Property</h1>
+    <form>
+        <label for="title">Property Title</label>
+        <input type="text" id="title" name="title" required>
+
+        <label for="location">Location</label>
+        <input type="text" id="location" name="location" required>
+
+        <label for="rent">Monthly Rent</label>
+        <input type="number" id="rent" name="rent" required>
+
+        <label for="bedrooms">Bedrooms</label>
+        <input type="number" id="bedrooms" name="bedrooms" required>
+
+        <label for="description">Description</label>
+        <textarea id="description" name="description" rows="4"></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
