@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Zira House",
+        "location": "Downtown",
+        "price": "$250,000",
+        "bedrooms": 3
+    },
+    {
+        "title": "Green Villa",
+        "location": "Suburbs",
+        "price": "$320,000",
+        "bedrooms": 4
+    },
+    {
+        "title": "Sunset Apartment",
+        "location": "City Center",
+        "price": "$180,000",
+        "bedrooms": 2
+    }
+]
