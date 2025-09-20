@@ -17,4 +17,6 @@ fetch('data.json')
         });
     })
     .catch(error => {
-        document.getElementById('propertyList').innerHTML = '<li>Error
+        document.getElementById('propertyList').innerHTML = '<li>Error loading properties.</li>';
+        console.error(error);
+    });
