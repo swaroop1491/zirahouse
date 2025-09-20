@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Menu</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 40px; }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+
         .hamburger {
             width: 40px;
             height: 40px;
@@ -13,6 +18,7 @@
             justify-content: center;
             cursor: pointer;
         }
+
         .bar {
             height: 5px;
             width: 100%;
@@ -20,6 +26,7 @@
             margin: 4px 0;
             border-radius: 2px;
         }
+
         .menu {
             display: none;
             position: absolute;
@@ -28,21 +35,24 @@
             background: #fff;
             border: 1px solid #ccc;
             border-radius: 6px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
             padding: 16px;
             min-width: 120px;
         }
+
         .menu a {
             display: block;
             padding: 8px 0;
             color: #333;
             text-decoration: none;
         }
+
         .menu a:hover {
             background: #f0f0f0;
         }
     </style>
 </head>
+
 <body>
     <div class="hamburger" id="hamburgerMenu">
         <div class="bar"></div>
@@ -50,8 +60,10 @@
         <div class="bar"></div>
     </div>
     <div class="menu" id="menuOptions">
-        <a href="sell.html">Sell</a>
-        <a href="rent.html">Rent</a>
+        <!-- In menu.html or menu markup -->
+        <a href="components/sell.html">Sell</a>
+        <a href="components/rent.html">Rent</a>
     </div>
 </body>
+
 </html>

@@ -26,6 +26,8 @@ fetch('data.json')
 
 // Hamburger menu logic
 // Execute below code after menu.html is loaded
+
+
 fetch('./components/menu.html')
     .then(response => response.text())
     .then(html =>  {
