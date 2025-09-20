@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        .hamburger {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            cursor: pointer;
+        }
+        .bar {
+            height: 5px;
+            width: 100%;
+            background: #333;
+            margin: 4px 0;
+            border-radius: 2px;
+        }
+        .menu {
+            display: none;
+            position: absolute;
+            top: 60px;
+            left: 40px;
+            background: #fff;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            padding: 16px;
+            min-width: 120px;
+        }
+        .menu a {
+            display: block;
+            padding: 8px 0;
+            color: #333;
+            text-decoration: none;
+        }
+        .menu a:hover {
+            background: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <div class="hamburger" id="hamburgerMenu">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+    <div class="menu" id="menuOptions">
+        <a href="buy.html">Buy</a>
+        <a href="sell.html">Sell</a>
+        <a href="rent.html">Rent</a>
+    </div>
+    <script>
+        const hamburger = document.getElementById('hamburgerMenu');
+        const menu = document.getElementById('menuOptions');
+        hamburger.addEventListener('click', () => {
+            menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+        });
+        document.addEventListener('click', (e) => {
+            if (!hamburger.contains(e.target) && !menu.contains(e.target)) {
+                menu.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>

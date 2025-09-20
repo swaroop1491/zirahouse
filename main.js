@@ -20,3 +20,12 @@ fetch('data.json')
         document.getElementById('propertyList').innerHTML = '<li>Error loading properties.</li>';
         console.error(error);
     });
+
+// ...existing code...
+
+// Load menu.html into #menuContainer
+fetch('./components/menu.html')
+    .then(response => response.text())
+    .then(html => {
+        document.getElementById('menuContainer').innerHTML = html;
+    });
